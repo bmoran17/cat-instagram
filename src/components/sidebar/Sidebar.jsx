@@ -2,7 +2,7 @@ import React from "react";
 import "./sidebar.css"
 
 const Sidebar = () => {
-  const sidebarItems = [ 
+  const topSidebarItems = [ 
     {
       "name": "Home",
       "src": "/images/icons/home-icon.png",
@@ -40,9 +40,13 @@ const Sidebar = () => {
     },
     {
       "name": "Profile",
-      "src": "/images/icons/user-profile-photo.jpg",
+      "src": "/images/icons/user-profile-photo.png",
       "alt": "profile photo"
-    },{
+    }
+  ]
+
+  const bottomSidebarItems = [
+    {
       "name": "Threads",
       "src": "/images/icons/threads-icon.png",
       "alt": "threads icon"
@@ -51,19 +55,31 @@ const Sidebar = () => {
       "name": "More",
       "src": "/images/icons/more-icon.png",
       "alt": "more icon"
-    },
+    }
   ]
 
   return (
     <div className="sidebar">
       <p className="header">Instagram</p>
 
-      {sidebarItems.map((item) => (
-        <div className="item-container"> 
-          <img className="icon-image" src={item.src} alt="" />
-          <p className="name">{item.name}</p>
-        </div>
-      ))}
+      <div className="top-items">
+        {topSidebarItems.map((item) => (
+          <div className="item-container"> 
+            <img className="icon-image" src={item.src} alt={item.src} />
+            <p className="name">{item.name}</p>
+          </div>
+        ))}
+      </div>
+
+      <div className="bottom-items">
+        {bottomSidebarItems.map((item) => (
+          <div className="item-container"> 
+            <img className="icon-image" src={item.src} alt={item.src} />
+            <p className="name">{item.name}</p>
+          </div>
+        ))}
+      </div>
+
     </div>
   )
 }

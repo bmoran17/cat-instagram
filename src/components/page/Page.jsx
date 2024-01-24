@@ -6,8 +6,8 @@ import './page.css';
 const Page = () => {
   return (
     <div className="page-container">
-      <Stories />
-      <Posts />
+      {/* <Stories /> */}
+      {/* <Posts /> */}
     </div>
 
   )

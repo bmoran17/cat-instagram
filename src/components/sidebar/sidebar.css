@@ -1,3 +1,38 @@
-.stories-container {
-  display: flex;
+.sidebar {
+  width: 18vw;
+  height: 100vw;
+  position: fixed;
+  overflow: auto;
+  font: 16px;
+  margin-left: 25px;
+  border: 1px rgb(203, 199, 199);
+  border-style: none solid none none;
 }
+
+.sidebar > .header {
+  font-family: cursive;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 20px;
+  margin-bottom: 5px;
+}
+
+.item-container > .icon-image {
+  width: 28px;
+  height: 28px;
+}
+
+.icon-image > .profile-image {
+  border-radius: 20%;
+}
+
+.sidebar > .bottom-items {
+  margin-top: 300px;
+}
+
