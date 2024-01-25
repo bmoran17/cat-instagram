@@ -1,0 +1,55 @@
+.suggestions-container {
+  border-style: none none none solid;
+  width: 25%;
+  margin-right: 50px;
+}
+
+.switch-container {
+  display: flex;
+}
+
+.suggestions-header-container {
+  display: flex;
+  font-size: 15px;
+  color: #737373;
+  font-weight: 420;
+  gap: 85px;
+  margin-left: 10px;
+}
+
+.see-all {
+  font-size: 12px;
+  margin-top: 17px;
+}
+
+.friend-suggestion, .switch-container {
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+  align-items: center;
+}
+
+.suggestion-profile-photo, .account-profile-photo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.suggestion-username, .account-info > .username {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.suggestion-description, .account-info > .name {
+  font-size: 12px;
+  color: #737373;
+  margin-top: 2px;
+  min-width: 115px;
+}
+
+.follow-text, .switch-text {
+  font-size: 12px;
+  color: rgb(0, 149, 246);
+  font-weight: bold;
+}

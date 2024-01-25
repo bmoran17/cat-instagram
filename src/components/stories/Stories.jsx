@@ -3,50 +3,50 @@ import "./stories.css";
 
 
 const Stories = () => {
-  const storiesProfiles = [
+  const storiesProfiles = [ 
     {
       "name": "cat1",
-      "photo": "/images/profile-photos/cat-looking-at-toy.jpg",
+      "photo": "/images/stories-profile-photos/cat-looking-at-toy.jpg",
     },
     {
       "name": "cat2",
-      "photo": "/images/profile-photos/cat-running.jpg",
+      "photo": "/images/stories-profile-photos/cat-running.jpg",
     },
     {
       "name": "cat3",
-      "photo": "/images/profile-photos/cat-sitting-down.jpg",
+      "photo": "/images/stories-profile-photos/cat-sitting-down.jpg",
     },
     {
       "name": "cat4",
-      "photo": "/images/profile-photos/cat-wrapped-in-blanket.jpg",
+      "photo": "/images/stories-profile-photos/cat-wrapped-in-blanket.jpg",
     },
     {
       "name": "cat5",
-      "photo": "/images/profile-photos/gray-cat-laying-down.jpg",
+      "photo": "/images/stories-profile-photos/gray-cat-laying-down.jpg",
     },
     {
       "name": "cat6",
-      "photo": "/images/profile-photos/gray-cat-laying-down.jpg",
+      "photo": "/images/stories-profile-photos/gray-cat-laying-down.jpg",
     },
     {
       "name": "cat7",
-      "photo": "/images/profile-photos/gray-cat-laying-down.jpg",
+      "photo": "/images/stories-profile-photos/gray-cat-laying-down.jpg",
     },
     {
       "name": "cat8",
-      "photo": "/images/profile-photos/gray-cat-laying-down.jpg",
+      "photo": "/images/stories-profile-photos/gray-cat-laying-down.jpg",
     },
     {
       "name": "cat1",
-      "photo": "/images/profile-photos/sphynx-cat.jpg",
+      "photo": "/images/stories-profile-photos/sphynx-cat.jpg",
     },
     {
       "name": "cat2",
-      "photo": "/images/profile-photos/sphynx-cat.jpg",
+      "photo": "/images/stories-profile-photos/sphynx-cat.jpg",
     },
     {
       "name": "cat3",
-      "photo": "/images/profile-photos/sphynx-cat.jpg",
+      "photo": "/images/stories-profile-photos/sphynx-cat.jpg",
     }
   ]
 
@@ -69,7 +69,6 @@ const Stories = () => {
           <div className="story-container-gradient">
             <div className="story-container">
               <img className="profile-photos" src={profile.photo} alt="cat" />
-              
               <p className="profile-names">{profile.name}</p>
             </div>
           </div>
