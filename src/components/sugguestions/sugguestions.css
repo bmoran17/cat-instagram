@@ -1,5 +1,5 @@
 .suggestions-container {
-  border-style: none none none solid;
+  /* border-style: none none none solid; */
   width: 25%;
   margin-right: 50px;
 }
@@ -11,15 +11,17 @@
 .suggestions-header-container {
   display: flex;
   font-size: 15px;
-  color: #737373;
-  font-weight: 420;
-  gap: 85px;
+  color: rgb(115, 115, 115);
+  font-weight: 550;
+  gap: 77px;
   margin-left: 10px;
 }
 
 .see-all {
   font-size: 12px;
   margin-top: 17px;
+  color: #393737;
+  font-weight: 800;
 }
 
 .friend-suggestion, .switch-container {
@@ -30,8 +32,8 @@
 }
 
 .suggestion-profile-photo, .account-profile-photo {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
@@ -52,4 +54,18 @@
   font-size: 12px;
   color: rgb(0, 149, 246);
   font-weight: bold;
+}
+
+.extra-container {
+  font-size: 12px;
+  color: rgb(199, 199, 199);
+}
+
+.line1 {
+  margin-top: 35px;
+}
+
+.line2 {
+  margin-top: 5px;
+  margin-bottom: 22px;
 }

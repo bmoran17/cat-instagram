@@ -57,6 +57,12 @@ const Suggestions = () => {
           <div className="follow-text">Follow</div>
         </div>
       ))}
+
+      <div className="extra-container">
+        <div className="line1">About · Help · Press · API · Jobs · Privacy · Terms ·</div>
+        <div className="line2">Locations · Language · Meta Verified</div>
+        <div className="copyright">&#169; 2024 INSTAGRAM FROM META</div>
+      </div> 
     </div>
   )
 }
