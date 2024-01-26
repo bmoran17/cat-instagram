@@ -1,8 +1,47 @@
 .stories-parent-container {
-  width: 40%;
-  max-width: 50%;
-
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  max-width: 571px;
+  height: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: auto;
+  margin-top: 20px;
 }
+
 .stories-container {
   display: flex;
+  gap: 11px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.story-container-gradient {
+  width: 62px;
+  height: 61px;
+  border-radius: 50%;
+  background: linear-gradient(to right, yellow, red, purple, pink);
+  padding: 2.5px;
+}
+
+.story-container > .profile-photos {
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 60px;
+  height:auto;
+  border: 2px solid white;
+}
+
+#left {
+  float: left;
+  width: 30px;
+}
+
+#right {
+  float: right;
+  width: 30px;
+}
+
+.scroll-btn {
+  border-radius: 50%;
 }

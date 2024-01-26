@@ -1,3 +1,9 @@
+@media only screen and (max-width: 400px) { 
+  .suggestions-container { 
+    display: none; 
+  } 
+}
+
 .suggestions-container {
   /* border-style: none none none solid; */
   width: 25%;

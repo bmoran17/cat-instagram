@@ -32,7 +32,6 @@ const Suggestions = () => {
 
   return (
     <div className="suggestions-container">
-
       <div className="switch-container">
         <img className="account-profile-photo" src="/images/suggestions-profile-photos/cheshire-cat.jpg" alt="cat"/>
         <div className="account-info">

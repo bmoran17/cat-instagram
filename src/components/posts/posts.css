@@ -1,0 +1,33 @@
+.posts-container  {
+  margin-left: 280px;
+  font-size: 14px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.post-profile-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.posted-image {
+  border-radius: 1%;
+}
+
+.post-profile-name {
+  font-weight: bold;
+}
+
+.post-time-posted {
+  color: rgb(117, 117, 117);
+}
+
+.options {
+  margin-left: 270px;
+}

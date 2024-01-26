@@ -50,20 +50,21 @@ const Stories = () => {
     }
   ]
 
-  const handleRightScroll = () =>{
-    const right = document.querySelector(".stories-container");
-    right.scrollBy(200,0);
+  const handleRightScroll = (e) =>{
+    document.querySelector(".stories-container").scrollLeft += 200;
+    e.preventDefault()
   }
 
-  const handleLeftScroll = () =>{
-    const left = document.querySelector(".stories-container");
-    left.scrollBy(-200,0);
+  const handleLeftScroll = (e) =>{
+    document.querySelector(".stories-container").scrollLeft -= 200;
+    e.preventDefault()
   }
-
 
   return (
     <div className="stories-parent-container">
-      <button className="left-btn scroll-btn" onClick={handleLeftScroll}>{"<"}</button>
+      <div id="left">
+        <button className="scroll-btn" onClick={handleLeftScroll}>{"<"}</button>
+      </div>
       <div className="stories-container">
         {storiesProfiles.map((profile) => (
           <div className="story-container-gradient">
@@ -74,7 +75,9 @@ const Stories = () => {
           </div>
         ))}
       </div>
-      <button className="right-btn scroll-btn" onClick={handleRightScroll}>{">"}</button>
+      <div id="right">
+        <button className="scroll-btn" onClick={handleRightScroll}>{">"}</button>
+      </div>
     </div>
   )
 }

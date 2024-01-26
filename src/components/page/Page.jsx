@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <div className="page-container">
       <Stories />
-      {/* <Posts /> */}
+      <Posts />
     </div>
 
   )
