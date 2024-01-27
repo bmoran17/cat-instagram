@@ -1,3 +1,9 @@
+@media only screen and (max-width: 800px) { 
+  .item-container > .name { 
+    display: none; 
+  } 
+}
+
 .sidebar {
   width: 12%;
   height: 100vw;

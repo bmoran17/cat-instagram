@@ -1,12 +1,20 @@
 .posts-container  {
   margin-left: 280px;
+  width: 450px;
   font-size: 14px;
+}
+
+.ind-post-container {
+  border: 1px rgb(203, 199, 199);
+  border-style: none none solid none;
+  margin: 10px 0px 20px 0px; 
+  padding-bottom: 5px;
 }
 
 .post-header {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   gap: 10px;
 }
 
@@ -28,6 +36,42 @@
   color: rgb(117, 117, 117);
 }
 
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.icons > div >img {
+  width: 25px;
+  height: 25px;
+}
+
+.left-icons {
+  display: flex;
+  gap: 10px;
+}
+
 .options {
   margin-left: 270px;
+}
+
+.likes, .caption-info > p >  span {
+  font-weight: bold;
+}
+
+.view-comments {
+  margin-bottom: -5px;
+}
+
+.comment-section, .view-comments {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #737373;
+}
+
+.emojis {
+  width: 15px;
+  height: 15px;
 }

@@ -7,6 +7,8 @@
   -webkit-overflow-scrolling: touch;
   margin: auto;
   margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
 }
 
 .stories-container {
@@ -30,6 +32,7 @@
   width: 60px;
   height:auto;
   border: 2px solid white;
+  margin-bottom: -9px;
 }
 
 #left {

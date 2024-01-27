@@ -1,7 +1,5 @@
-@media only screen and (max-width: 400px) { 
-  .suggestions-container { 
-    display: none; 
-  } 
+@media (max-width: 1200px) {
+  .suggestions-container { display: none; }
 }
 
 .suggestions-container {
